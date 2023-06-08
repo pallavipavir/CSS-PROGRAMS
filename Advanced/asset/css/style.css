@@ -1,0 +1,142 @@
+.title{
+    background-color: rgb(255, 187, 52);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title>h1{
+    color: rgb(255, 136, 0);
+}
+.title>p{
+    color: #fff;
+    font-size: 20px;
+}
+/* COMMON CLASS */
+.common{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid #ccc;
+}
+.cssOutLine{
+    outline: 3px solid #000;
+    border-radius: 10px;
+}
+/* P3.HTML CODE */
+.cssOverflow>p{
+    text-align: justify;
+    line-height: 2;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+}
+.cssOverflow>p:last-child{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* P4.HTML CODE */
+.cssWhiteSpace{
+    white-space:break-spaces;
+}
+/* P5.HTML CODE */
+.cssUnits>h3:nth-child(1){
+    margin: 0.5in;
+}
+.cssUnits>h3:nth-child(2){
+    margin: 3cm;
+}
+.cssUnits>h3:nth-child(3){
+    margin: 4mm;
+}
+.cssUnits>h3:nth-child(4){
+    margin: 12pt;
+}
+.cssUnits>h3:nth-child(5){
+    margin: 1pc;
+}
+.cssUnits>h3:nth-child(6){
+    margin: 12px;
+}
+/* P6.HTML CODE */
+.cssVisibilityDisplay>p{
+    background-color: teal;
+    padding: 20px;
+    border: 5px solid red;
+}
+.cssVisibilityDisplay>.cssVisibility{
+    visibility: hidden;
+}
+.cssVisibilityDisplay>.cssDisplay{
+    display: none;
+}
+/* P7.HTML */
+.cssWordWrap>p{
+    background-color: #808080;
+    padding: 20px;
+    width: 300px;
+    word-wrap:break-word ;
+}
+.cssResize{
+    overflow: auto;
+    resize: both;
+}
+/* css offset-Outline */
+.cssOffsetOutline{
+    outline: 3px solid #000;
+    outline-offset: 10px;
+}
+/* CSS COLUMN COUNT */
+.cssColumnCount{
+    text-align: justify;
+    line-height: 2;
+    /* column-count: 6; */
+    column-gap: 50px;
+    column-rule: 2px solid red;
+    column-width: 200px;
+}
+/* P8.HTML CODE */
+.cssOpacity>p{
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.9;
+}
+.cssOpacity>div{
+    background-color: rgba(128,128,128,0.4);
+    color: rgba(255,255,255,0.5);
+    padding: 20px;
+}
+/* P9.HTML CODE */
+.cssAttribute>h1{
+    color: brown;
+}
+.cssAttribute>p{
+    color: #808080;
+}
+.cssAttribute>[title]{
+    background-color: yellow;
+}
+.cssAttribute>p[title]{
+    padding: 20px;
+}
+.cssAttribute>h1[title]{
+    font-style: italic;
+}
+.cssAttribute>p>abbr[id]{
+    background-color: red;
+    color: yellow;
+}
+.cssAttribute>form>[type='text']{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.cssAttribute>form>[type="submit"]{
+    background-color: lightblue;
+    border: 2px solid red;
+}
+
+
